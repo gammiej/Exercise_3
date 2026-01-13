@@ -1,3 +1,11 @@
+/*
+James Gammie
+1/13/2026
+
+This program requires an sp32s3 board with a button and led, the led pin is 10, the button pin is 4.
+every other time the button is pressed, the LED will turn on
+*/
+
 #include "freertos/FreeRTOS.h"
 #include "driver/gpio.h"
 
